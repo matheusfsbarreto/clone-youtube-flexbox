@@ -1,0 +1,49 @@
+h1 {
+    font-size: 20px;
+    margin: 16px 0;
+    width: 800px;
+}
+
+.channel-infos, .title-channel, .subscribers {
+    display: flex;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.subscribe-button {
+    background-color: #CC0000;
+    color: white;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-like, .button-dislike, .button-share, .button-download {
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+    border: none;
+    cursor: pointer;
+}
+
+.video-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.video-information {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px 0;
+    width: 510px;
+    
+    
+}
+
+h3, p {
+    font-size: 14px;
+}

@@ -1,0 +1,22 @@
+
+.video-recommended {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.info-recommended {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
